@@ -5,11 +5,17 @@ import App from './App'
 import reportWebVitals from './reportWebVitals'
 
 import Library from './03/Library'
+import Clock from './04/Clock'
+
+import CommentList from './CommentList'
+import Comment from './06/LandingPage'
+import LandingPage from './06/LandingPage'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
+
 root.render(
   <React.StrictMode>
-    <Library />
+    <LandingPage />
   </React.StrictMode>
 )
 
