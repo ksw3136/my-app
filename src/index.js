@@ -10,12 +10,13 @@ import Clock from './04/Clock'
 import CommentList from './CommentList'
 import Comment from './06/LandingPage'
 import LandingPage from './06/LandingPage'
+import Blog from './07/Blog'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
 root.render(
   <React.StrictMode>
-    <LandingPage />
+    <Blog />
   </React.StrictMode>
 )
 
